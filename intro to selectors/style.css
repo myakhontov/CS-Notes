@@ -1,0 +1,43 @@
+body{
+
+    background-image: linear-gradient(to right bottom,
+    rgba(255, 90, 9, 0.4),
+    rgba(236, 127, 55, 0.4)
+    ), 
+     url(media/fall.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+div {
+    height:100vh;
+    color: white;
+    font-size: 20px;
+
+
+
+}
+li{
+    font-size: 30px;
+}
+li:nth-of-type(3){
+    font-size: 60px;
+    text-transform: uppercase;
+}
+li:last-child{
+    text-decoration: line-through;
+}
+ul + h2{
+    text-transform: uppercase;
+    color: blue;
+}
+#test2{
+    color: salmon;
+}
+.test{
+    color: purple;
+}
+div h2{
+    color: red;
+}
